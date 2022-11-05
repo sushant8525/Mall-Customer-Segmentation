@@ -36,3 +36,15 @@ with st.form("my_form"):
     data=[[balance,balance_frequency,purchases,oneoff_purchases,installments_purchases,cash_advance,purchases_frequency,oneoff_purchases_frequency,purchases_installment_frequency,cash_advance_frequency,cash_advance_trx,purchases_trx,credit_limit,payments,minimum_payments,prc_full_payment,tenure]]
 
     submitted = st.form_submit_button("Submit")
+if submitted:
+    clust=loaded_model.predict(data)[0]
+    print('Data Belongs to Cluster',clust)
+
+    cluster_df1=df[df['Cluster']==clust]
+    plt.rcParams["figure.figsize"] = (20,3)
+    for c in cluster_df1.drop(['Cluster'],axis=1):
+        fig, ax = plt.subplots()
+        grid= sns.FacetGrid(cluster_df1, col='Cluster')
+        grid= grid.map(plt.hist, c)
+        plt.show()
+        st.pyplot(figsize=(5, 5))
