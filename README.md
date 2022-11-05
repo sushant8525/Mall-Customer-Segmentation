@@ -1,7 +1,7 @@
 # MarketSegmentation
 streamlit run app.py --server.port=80
 
-https://sushant8525-marketsegmentation-app-rp1z1v.streamlit.app/
+https://sushant8525-marketsegmentation-app-xaasry.streamlit.app/
 
 <p align="center"> 
   <img src="images/2.jfif" alt="2.jfif" width="100px" height="100px">
