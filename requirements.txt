@@ -4,3 +4,7 @@ matplotlib
 scikit-learn
 streamlit
 plotly
+docopt
+yarg
+pipreqs
+seaborn
