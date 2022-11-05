@@ -4,12 +4,12 @@ streamlit run app.py --server.port=80
 https://sushant8525-marketsegmentation-app-xaasry.streamlit.app/
 
 <p align="center"> 
-  <img src="images/2.jfif" alt="2.jfif" width="100px" height="100px">
+  <img src="images/1.jpeg" alt="1.jpeg" width="80px" height="80px">
 <h1 align="center"> MarketSegmentation  </h1> 
 
      
 <p align="center"> 
-<img src="images/all.jpeg" alt="all.jpeg" height="382px">
+<img src="images/all.jpg" alt="all.jpg" height="382px">
 </p>
 <h3 align="center"> Feynn Labs verified Project 
 
@@ -37,35 +37,25 @@ the car’s existing value.
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h2> :book:Data Description</h2>
-There are id and 12 characteristics of cars and the price.
-
-Id - Car's id
-
-Name - The brand and model of the car.
-
-Location - The location in which the car is being sold or is available for purchase.
-
-Year - The year or edition of the model.
-
-Kilometers_Driven - The total kilometers are driven in the car by the previous owner(s) in KM.
-
-Fuel_Type - The type of fuel used by the car. (Petrol, Diesel, Electric, CNG, LPG)
-
-Transmission - The type of transmission used by the car. (Automatic / Manual)
-
-Owner_Type - First, Second, Third, or Fourth & Above
-
-Mileage - The standard mileage offered by the car company in kmpl or km/kg
-
-Engine - The displacement volume of the engine in CC.
-
-Power - The maximum power of the engine in bhp.
-
-Seats - The number of seats in the car.
-
-New_Price - The price of a new car of the same model.
-
-Price - The price of the car (target).
+# There are 18 features with 8950 points
+# CUSTID: Identification of Credit Card holder 
+# BALANCE: Balance amount left in customer's account to make purchases
+# BALANCE_FREQUENCY: How frequently the Balance is updated, score between 0 and 1 (1 = frequently updated, 0 = not frequently updated)
+# PURCHASES: Amount of purchases made from account
+# ONEOFFPURCHASES: Maximum purchase amount done in one-go
+# INSTALLMENTS_PURCHASES: Amount of purchase done in installment
+# CASH_ADVANCE: Cash in advance given by the user
+# PURCHASES_FREQUENCY: How frequently the Purchases are being made, score between 0 and 1 (1 = frequently purchased, 0 = not frequently purchased)
+# ONEOFF_PURCHASES_FREQUENCY: How frequently Purchases are happening in one-go (1 = frequently purchased, 0 = not frequently purchased)
+# PURCHASES_INSTALLMENTS_FREQUENCY: How frequently purchases in installments are being done (1 = frequently done, 0 = not frequently done)
+# CASH_ADVANCE_FREQUENCY: How frequently the cash in advance being paid
+# CASH_ADVANCE_TRX: Number of Transactions made with "Cash in Advance"
+# PURCHASES_TRX: Number of purchase transactions made
+# CREDIT_LIMIT: Limit of Credit Card for user
+# PAYMENTS: Amount of Payment done by user
+# MINIMUM_PAYMENTS: Minimum amount of payments made by user  
+# PRC_FULL_PAYMENT: Percent of full payment paid by user
+# TENURE: Tenure of credit card service for user
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
   
@@ -78,11 +68,6 @@ https://used-car-price-predictio.herokuapp.com/docs#/default/predict_predict_pos
 
 for localhost :- http://127.0.0.1:8000/docs#/default/predict_predict_post
 
-"Fuel_Type":- 'Diesel':1  , 'Petrol':2,  'CNG':3,   'LPG':4,   'Electric':5
-
-"Transmission":-'Manual':1,    'Automatic':2
-
-"Owner_Type":-'First':1,   'Second':2,    'Third':3,    'Fourth & Above':4
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
