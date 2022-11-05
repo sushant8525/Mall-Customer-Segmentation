@@ -14,7 +14,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h2> :book:Introduction</h2>
-t is essential for any businesses to understand their customers behaviour. Through that understanding, a business is able to effectively provide solutions for customers as products/services. Many businesses leverage this knowledge to gain an edge over the competition and try to come up with better offers to customers.
+It is essential for any businesses to understand their customers behaviour. Through that understanding, a business is able to effectively provide solutions for customers as products/services. Many businesses leverage this knowledge to gain an edge over the competition and try to come up with better offers to customers.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
