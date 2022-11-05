@@ -1,9 +1,8 @@
-# MarketSegmentation
 
 
 <p align="center"> 
   <img src="images/1.jpeg" alt="1.jpeg" width="80px" height="80px">
-<h1 align="center"> MarketSegmentation  </h1> 
+<h1 align="center">  MarketSegmentation  </h1> 
 
      
 <p align="center"> 
